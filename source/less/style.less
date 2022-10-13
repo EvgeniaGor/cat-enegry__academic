@@ -1,7 +1,40 @@
-// Начните писать стили здесь
-@import "content.less";
+// Global
 
-body {
-  background-color: tomato;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+@import "global/mixins.less";
+@import "global/global.less";
+@import "global/variables.less";
+@import "global/fonts.less";
+
+
+// Blocks
+
+@import "blocks/page.less";
+@import "blocks/page-body.less";
+@import "blocks/page-header.less";
+@import "blocks/page-footer.less";
+@import "blocks/page-main.less";
+@import "blocks/main-nav.less";
+@import "blocks/button.less";
+
+//Index
+
+
+@import "blocks/index/page-start.less";
+@import "blocks/index/goal.less";
+@import "blocks/index/advantages.less";
+@import "blocks/index/example.less";
+
+
+// Catalog
+
+@import "blocks/catalog/catalog.less";
+@import "blocks/catalog/additionally.less";
+
+// Form
+
+@import "blocks/form/form.less";
+@import "blocks/form/intelligence.less";
+@import "blocks/form/objective.less";
+@import "blocks/form/personal-data.less";
+@import "blocks/form/comment.less";
+@import "blocks/form/optionally.less";
